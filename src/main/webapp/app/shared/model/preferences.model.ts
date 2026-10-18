@@ -1,0 +1,11 @@
+import { Units } from 'app/shared/model/enumerations/units.model';
+import { IUser } from 'app/shared/model/user.model';
+
+export interface IPreferences {
+  id?: number;
+  weeklyGoal?: number;
+  weightUnits?: keyof typeof Units;
+  user?: IUser | null;
+}
+
+export const defaultValue: Readonly<IPreferences> = {};

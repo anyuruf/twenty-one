@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "oauth2",
+    "baseName": "HealthPoints",
+    "buildTool": "maven",
+    "clientFramework": "react",
+    "creationTimestamp": 1702094585303,
+    "enableTranslation": true,
+    "entities": ["Points", "BloodPressure", "Weight", "Preferences"],
+    "jhipsterVersion": "9.4.0",
+    "languages": ["en", "es"],
+    "lastLiquibaseTimestamp": 1702094825000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageName": "net.anyuruf",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": "elasticsearch",
+    "skipCommitHook": true,
+    "testFrameworks": ["cypress"]
+  }
+}
